@@ -1,6 +1,6 @@
 package com.mycompany.git;
 
-public class Equalizer {
+public class Qr {
 
     private static int rSz = 0;
 
@@ -11,10 +11,10 @@ public class Equalizer {
 
     private static void blokkok() {
         eq();
-        eq(8);
-        eq(12);
+        eq(9);
+        eq(9,true);
+        eq(10);
         eq();
-        eq(4);
         eq();
     }
 
@@ -24,7 +24,7 @@ public class Equalizer {
         rSz = (int) (Math.random() * (max - min + 1) + min);
         int index = 0;
         while (index < rSz) {
-            System.out.printf("." + " ");
+            System.out.printf("*" + " ");
             index++;
         }
         System.out.println();
@@ -34,7 +34,7 @@ public class Equalizer {
     private static void eq(int sorszam) {
         int index = 0;
         while (index < sorszam) {
-            System.out.printf("." + " ");
+            System.out.printf("*" + " ");
             index++;
         }
         System.out.println();
@@ -47,7 +47,7 @@ public class Equalizer {
         rSz = (int) (Math.random() * (max - min + 1) + min);
         int index = 0;
         while (index < rSz) {
-            System.out.printf("." + " ");
+            System.out.printf("*" + " ");
             index++;
         }
                if (szamolas == true){
@@ -62,12 +62,12 @@ public class Equalizer {
 
         int index = 0;
         while (index < sorszam) {
-            System.out.printf("." + " ");
+            System.out.printf("*" + " ");
             index++;
         }
 
         if (szamolas == true){
-            System.out.println("(" + sorszam + ")");
+            System.out.println("\n.....\n"+".   .\n"+". . .\n"+".   .\n"+".....");
     }
         else{
             System.out.println("");

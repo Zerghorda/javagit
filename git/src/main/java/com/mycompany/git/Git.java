@@ -3,7 +3,7 @@ package com.mycompany.git;
 public class Git {
 
     public static void main(String[] args) {
-        String szoveg="";
+        String szoveg = "";
         kiIr(szoveg);
     }
 
@@ -30,13 +30,14 @@ public class Git {
         szoveg = Integer.toString(haromszamgyok(2, 5, 1));
         System.out.println(szoveg);
     }
+
     private static int negyszamosszege(int a, int b, int c, int d) {
         return a + b + c + d;
     }
 
-     private static int haromszamgyok(int a, int b, int c) {
+    private static int haromszamgyok(int a, int b, int c) {
         int szam = a + b + c;
-         return (int) Math.sqrt(szam);
+        return (int) Math.sqrt(szam);
     }
 
 }
