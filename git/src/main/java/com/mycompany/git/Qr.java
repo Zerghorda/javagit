@@ -11,7 +11,7 @@ public class Qr {
         int max = 10;
         int randnom1, random2;
         int sorok = 0;
-        while (sorok < 5) {
+        while (sorok < 10) {
             int index = 0;
             while (index < 20) {
                 randnom1 = (int) (Math.random() * (max - min + 1) + min);
