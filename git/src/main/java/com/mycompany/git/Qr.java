@@ -17,7 +17,7 @@ public class Qr {
                 randnom1 = (int) (Math.random() * (max - min + 1) + min);
                 random2 = (int) (Math.random() * ((max + 10) - min + 1) + (min + 10));
                 if (index == randnom1 || index == random2) {
-                    System.out.printf(".");
+                    System.out.printf("-");
                 } else {
                     System.out.printf("*");
                 }
