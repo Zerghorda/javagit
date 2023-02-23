@@ -67,7 +67,13 @@ public class Qr {
         }
 
         if (szamolas == true){
-            System.out.println("\n.....\n"+".   .\n"+". . .\n"+".   .\n"+".....");
+            System.out.println("""
+                               
+                               .....
+                               .   .
+                               . . .
+                               .   .
+                               .....""");
     }
         else{
             System.out.println("");
